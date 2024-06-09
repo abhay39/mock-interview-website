@@ -61,14 +61,13 @@ export default function Page() {
               </svg>
             </a>
   
-            <h1 className="mt-2 text-2xl font-bold text-gray-900 sm:text-3xl md:text-4xl">
-              Welcome to Squid 🦑
-            </h1>
-  
-            <p className="mt-4 leading-relaxed text-gray-500">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi nam dolorum aliquam,
-              quibusdam aperiam voluptatum.
-            </p>
+            <h2 className="mt-6 text-2xl font-bold text-white sm:text-3xl md:text-4xl">
+          Welcome to Mock InterView with AI
+        </h2>
+
+        <p className="mt-4 leading-relaxed text-white/90">
+        Elevate your interview preparation with our advanced AI-driven mock interview platform. Experience real-time, personalized feedback, and practice with industry-specific questions to boost your confidence and performance. Get ready to ace your next interview with precision and poise Key Features: Realistic Interview Simulations: Engage in lifelike interview scenarios tailored to your desired job role. Personalized Feedback: Receive detailed analysis and constructive feedback to improve your responses . Industry-Specific Questions: Practice with questions relevant to your field to gain a competitive edge. Flexible Scheduling: Practice anytime, anywhere with our convenient and accessible platform.Performance Tracking: Monitor your progress and identify areas for improvement with our comprehensive analytics.
+        </p>
           </div>
   
           <div action="#" className="flex items-center justify-center">

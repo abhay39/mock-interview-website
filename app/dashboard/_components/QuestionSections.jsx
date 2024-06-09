@@ -18,7 +18,7 @@ const QuestionSections = ({interviewQuestions,activeQuestionIndex}) => {
                 interviewQuestions && interviewQuestions.map((question, index) => {
                     return (
                         <div key={index}>
-                            <h2 className={`p-2 bg-secondary rounded-full text-xs md:text-sm  text-center cursor-pointer ${activeQuestionIndex ===index && " bg-red-500 text-white"}`}>Question #{index+1}</h2>
+                            <h2 className={`p-2 bg-secondary rounded-full text-xs md:text-sm  text-center cursor-pointer ${activeQuestionIndex ==index && " bg-blue-500 text-white"}`}>Question #{index+1}</h2>
                         </div>
                     )
                 })
