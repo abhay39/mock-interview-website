@@ -6,27 +6,27 @@ const steps = [
   {
     title: "Sign Up",
     description: "Create an account to get started with your AI-powered mock interviews.",
-    icon: <CheckCircleIcon className="w-12 h-12 text-blue-600" />
+    icon: <CheckCircleIcon className="w-6 md:w-12 h-6 md:h-12 text-blue-600" />
   },
   {
     title: "Select an Interview Type",
     description: "Choose the type of interview you want to practice, such as technical, behavioral, or situational.",
-    icon: <PlayIcon className="w-12 h-12 text-blue-600" />
+    icon: <PlayIcon className="w-6 md:w-12 h-6 md:h-12 text-blue-600" />
   },
   {
     title: "Start Your Mock Interview",
     description: "Begin your mock interview with AI and answer the questions as you would in a real interview.",
-    icon: <ArrowRightIcon className="w-12 h-12 text-blue-600" />
+    icon: <ArrowRightIcon className="w-6 md:w-12 h-6 md:h-12 text-blue-600" />
   },
   {
     title: "Receive Instant Feedback",
     description: "Get immediate feedback on your performance, including areas for improvement.",
-    icon: <CheckCircleIcon className="w-12 h-12 text-blue-600" />
+    icon: <CheckCircleIcon className="w-6 md:w-12 h-6 md:h-12 text-blue-600" />
   },
   {
     title: "Improve and Repeat",
     description: "Use the feedback to improve your skills and repeat the process to become more confident.",
-    icon: <CheckCircleIcon className="w-12 h-12 text-blue-600" />
+    icon: <CheckCircleIcon className="w-6 md:w-12 h-6 md:h-12 text-blue-600" />
   }
 ];
 
@@ -42,8 +42,8 @@ export default function HowItWorks() {
         <PublicHeader />
       </header>
 
-      <main className="flex flex-col items-center justify-center min-h-screen py-6 bg-gray-50">
-        <h1 className="text-4xl font-bold text-blue-600">How It Works</h1>
+      <main className="flex flex-col items-center justify-center min-h-screen py-6 bg-gray-50 px-2">
+        <h1 className=" text-2xl md:text-3xl lg:text-4xl font-bold text-blue-600">How It Works</h1>
         <div className="w-full max-w-4xl px-6 py-6 mt-6 bg-white rounded-lg shadow-md">
           {steps.map((step, index) => (
             <div key={index} className="flex items-start mb-8">
@@ -51,8 +51,8 @@ export default function HowItWorks() {
                 {step.icon}
               </div>
               <div className="ml-4">
-                <h3 className="text-xl font-semibold text-gray-800">{step.title}</h3>
-                <p className="mt-2 text-gray-600">{step.description}</p>
+                <h3 className="text-sm md:text-xl font-semibold text-gray-800">{step.title}</h3>
+                <p className="mt-2 text-xs md:text-sm text-gray-600">{step.description}</p>
               </div>
             </div>
           ))}

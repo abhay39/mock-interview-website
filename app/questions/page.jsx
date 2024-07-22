@@ -36,12 +36,12 @@ export default function FAQ() {
         <PublicHeader />
       </header>
 
-      <main className="flex flex-col items-center justify-center min-h-screen py-6 bg-gray-50">
-        <h1 className="text-4xl font-bold text-blue-600">Frequently Asked Questions</h1>
+      <main className="flex flex-col items-center justify-center min-h-screen py-6 bg-gray-50 px-3">
+        <h1 className="text-xl md:text-3xl lg:text-4xl font-bold text-blue-600">Frequently Asked Questions</h1>
         <div className="w-full max-w-4xl px-6 py-6 mt-6 bg-white rounded-lg shadow-md">
           {faqs.map((faq, index) => (
             <div key={index} className="mb-6">
-              <h3 className="text-xl font-semibold text-gray-800">{faq.question}</h3>
+              <h3 className="text-sm md:text-xl font-semibold text-gray-800">{faq.question}</h3>
               <p className="mt-2 text-gray-600">{faq.answer}</p>
             </div>
           ))}
